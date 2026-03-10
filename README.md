@@ -4,11 +4,20 @@ A simple, lightweight batch script to toggle between Light and Dark mode on Wind
 
 ## Features
 - **One-click Toggle**: Instantly switch between Light and Dark themes.
+- **Multiple Formats**: Includes both `.bat` and `.ps1` versions for your preference.
 - **No Admin Required**: Modifies user-specific registry keys (`HKCU`), so it works without elevated permissions.
-- **Robust Logic**: Includes protection against stale variables and handles standard Windows registry query formats.
+- **Robust Logic**: Automatically detects your current theme and switches to the opposite.
 
 ## How to use
-Just run `toggle_dark_mode.bat`. The script will detect your current theme and switch it to the opposite.
+You can use either of the following scripts:
+
+### Batch Version
+1. Download `toggle_dark_mode.bat`.
+2. Double-click to run.
+
+### PowerShell Version
+1. Download `toggle_dark_mode.ps1`.
+2. Right-click and select **Run with PowerShell**.
 
 ## Requirements
 - Windows 10 or Windows 11.
